@@ -1,0 +1,271 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*---------- BODY ----------*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #fdf8ef;
+}
+
+/*---------- HEADER ----------*/
+
+.cabecalho {
+  width: auto;
+  height: 10vh;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #067490;
+  color: #fff;
+}
+
+.headerLogo {
+  width: 150px;
+  width: 100px;
+  display: block;
+}
+.headerLogo img {
+  width: 50px;
+  height: 50px;
+}
+.headerTitulo {
+  width: 180px;
+  height: auto;
+  display: block;
+}
+.headerTitulo h1 {
+  font: bold 40px "Roboto", sans-serif;
+}
+.headerTitulo span {
+  width: 100px;
+  display: inline-block;
+  background-color: #062c47;
+}
+
+.headerMenu {
+  width: 200px;
+  height: auto;
+  display: block;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+#divBusca{
+  background-color:#ffffff;
+  border:solid 1px;
+  border-radius:14px;
+  width:240px;
+  height: 30px;
+  right: 20%;
+  position: absolute;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:30px;
+  width:200px;
+}
+
+#btnBusca{
+  width: 30px;
+  height: 30px;
+}
+.headerMenu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.headerMenu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.headerMenu a:hover {
+  border-bottom: solid 2px white;
+}
+
+/*---------- MAIN ----------*/
+
+.main {
+  width: 80%;
+  display: block;
+  margin: 5% auto;
+}
+
+.card {
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.image {
+  width: auto;
+  display: block;
+  margin: 10px 0 10px 45px;
+  align-items: center;
+}
+
+.image img {
+  width: 80%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.title h1 {
+  font-size: 20px;
+}
+
+.des {
+  padding: 3px;
+  text-align: center;
+  margin: 10px 0;
+}
+button {
+  margin: 25px 0px 10px 0px;
+  background-color: #fdf8ef;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+button:hover {
+  background-color: #9fced5;
+  color: #1d94af;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 40px;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #1d94af;
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+ 
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover {
+  opacity: 0.9s;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8s;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #1d94af;
+}
+
+#email{
+  margin: 0px 8px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  float: right;
+  right: 600px;
+}
+#whatsapp{
+  margin: 0px 8px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  float: right;
+  right: 660px;
+  top: 150%;
+ 
+}
+#instagram{
+  margin: 0px 8px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  float: right;
+  right: 730px;
+}
+
+#whats{
+  margin: 0px 8px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  float: right;
+  right: 660px;
+  top: 150%;
+}
+#instagram{
+  margin: 0px 8px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  float: right;
+  right: 900px;
+  top: 150%;
+}
+#email{
+  margin: 0px 8px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  float: right;
+  right: 460px;
+  top: 150%;
+}
